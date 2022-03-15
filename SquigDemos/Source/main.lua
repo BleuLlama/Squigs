@@ -1,11 +1,11 @@
--- Squigsplorer
+-- SquigDemos
 --  Play around with squigs
 --
 --  Scott Lawrence - yorgle@gmail.com
 
 
 -- version history
-local app_version = "1.2 2022-03-15"
+local app_version = "1.3 2022-03-15"
 
 
 -------------------------------------------------
@@ -29,7 +29,7 @@ function myGameSetUp()
 
     -- cursor
     cursor = Cursor()
-    cursor:setStyle( 'arrow' )
+    cursor:setStyle( 'llama' )
 
     -- callback for rendering the background
     gfx.sprite.setBackgroundDrawingCallback(
@@ -37,7 +37,7 @@ function myGameSetUp()
             gfx.setClipRect( x, y, width, height ) -- let's only draw the part of the screen that's dirty
 
             -- draw the text
-            gfx.drawText(   "Sqigsplorer - yorgle@gmail.com  v" .. app_version,
+            gfx.drawText(   "SqigDemos - yorgle@gmail.com  v" .. app_version,
                             1,  displayH - 12 )
 
             gfx.clearClipRect() -- clear so we don't interfere with drawing that comes after this

@@ -1,12 +1,7 @@
--- Llogicr
---  A digital logic toy
+-- SquigDemos
+--  Play around with Squigs!
 --
 --  Scott Lawrence - yorgle@gmail.com
-
-
--- version history
-local app_version = "1.0 2022-03-08"
---  1.0 2022-03-08 - Initial version
 
 
 -------------------------------------------------
@@ -18,8 +13,9 @@ import "CoreLibs/math"
 import "CoreLibs/timer"
 
 -- our classes
-import "moregfx"
 import "Cursor/cursor"
+import "utilities.lua"
+import "squigs.lua"
 
 -- shortcuts
 gfx = playdate.graphics
