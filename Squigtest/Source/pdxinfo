@@ -1,0 +1,7 @@
+name=Squigsplorer
+author=Scott Lawrence
+description=Explore the different squig types
+bundleID=com.umlautllama.Squigsplorer
+version=1.0
+buildNumber=100
+imagePath=SystemAssets

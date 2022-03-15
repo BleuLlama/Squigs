@@ -1,3 +1,10 @@
+# Scott's Additions
+*.pdx
+.DS_Store
+*junk
+junk*
+*swp
+
 # Compiled Lua sources
 luac.out
 
