@@ -1,14 +1,14 @@
 # Squigs!
 A Playdate-ey spline line like thing but more squiggly and round-rect-ey.  It is made for the Playdate Lua SDK
 
--- 
+-----
 
-Squigs were created by me, cott Lawrence (yorgle@gmail.com) and are provided here with an MIT license.  
+Squigs were created by me, Scott Lawrence (yorgle@gmail.com) and are provided here with an MIT license.  
 
 Basically you only need share a link back to here if you use them in your commercial or non-commercial project.  I welcome any 
 additions or improvements... feel free to send them back to me so I can add them in for others to use!
 
--- 
+----- 
 ### Overview
 
 I needed a spline like thing on Playdate for my Llogicr 
@@ -32,7 +32,7 @@ SquigDemos/Source/squigs.lua
 
 Enjoy!
 
---
+-----
 
 ### AutoSquig
 
@@ -45,7 +45,7 @@ Enjoy!
 - Control point is placed at the midpoint between P1 and P2
 - Always horizontal.  It cannot be inverted.
 
---
+-----
 
 ### TrioSquig
 
@@ -59,7 +59,7 @@ Enjoy!
 - Control point can be anywhere, but if it's outside of the space between P1 and P2, weird things might happen
 - It is a horizontal squig if P1 is the leftmost squig, and it is a vertical squig if P2 is the leftmost squig
 
--- 
+-----
 
 ### TrioPcntSquig
 
